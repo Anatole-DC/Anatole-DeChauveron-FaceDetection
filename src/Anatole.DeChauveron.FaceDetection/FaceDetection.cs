@@ -7,8 +7,9 @@ using OpenCvSharp;
 public class FaceDetection
 {
     public IList<FaceDetectionResult> DetectInScenes(IList<byte[]>
-        imagesSceneData, String mode = "NORMAL")
+        imagesSceneData, String mode = "ASYNC")
     {
+
         if (mode == "ASYNC")
         {
             
